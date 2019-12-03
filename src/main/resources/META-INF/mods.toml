@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[28,)" #mandatory
+
+authors="Shadows_of_Fire" #optional
+
+[[mods]] #mandatory
+
+modId="chatfilters" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="ChatFilters" #mandatory
+
+description='''
+Provides chat filters
+'''
+
+[[dependencies.chatfilters]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28.1.86,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.chatfilters]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
